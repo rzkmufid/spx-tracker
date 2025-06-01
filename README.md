@@ -11,6 +11,47 @@ A modern, user-friendly shipment tracking interface built with React and TypeScr
 - ⚡ Fast and efficient performance
 - 🎨 Modern UI with shadcn/ui components
 
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18 or higher
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/rzkmufid/geroo-tracker.git
+cd geroo-tracker
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+4. Open your browser and visit `http://localhost:5173`
+
+### Building for Production
+
+To create a production build:
+
+```bash
+npm run build
+# or
+yarn build
+```
+
 ## Tech Stack
 
 - React 18
@@ -49,11 +90,17 @@ This project is created for **EDUCATIONAL PURPOSES ONLY** and comes with the fol
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Credits
 
-Created by [Your Name] as a learning project to demonstrate modern web development practices.
+Created by [Geroo](https://github.com/rzkmufid) as a learning project to demonstrate modern web development practices. This project showcases the implementation of various web technologies and best practices in React development.
+
+### Special Thanks
+
+- [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
+- [Leaflet](https://leafletjs.com/) for the mapping functionality
+- All open-source contributors whose libraries made this project possible
 
 ## Note
 
