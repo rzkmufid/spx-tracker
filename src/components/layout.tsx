@@ -1,5 +1,5 @@
 import { ModeToggle } from './mode-toggle';
-import { PackageIcon, Github } from 'lucide-react';
+import { Github } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 interface LayoutProps {
