@@ -3,7 +3,6 @@ import { formatDate } from '@/lib/utils';
 import { MapPin, Truck, Package, Clock, ChevronDown, ChevronUp } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
 import { Card } from '@/components/ui/card';
 import { LocationMap } from '@/components/location-map';
 import type { TrackingRecord } from '@/lib/types';
