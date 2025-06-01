@@ -6,10 +6,6 @@ import { PackageSearch, PackageX } from 'lucide-react';
 import type { TrackingData } from '@/lib/types';
 import { Card } from '@/components/ui/card';
 
-const API_URL = import.meta.env.PROD 
-  ? 'https://spx.co.id/shipment/order/open/order/get_order_info'
-  : '/api/shipment/order/open/order/get_order_info';
-
 export default function TrackingPage() {
   const [trackingData, setTrackingData] = useState<TrackingData | null>(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -28,7 +24,7 @@ export default function TrackingPage() {
       });
       
       const response = await fetch(
-        `${API_URL}?${params}`,
+        `/api/shipment/order/open/order/get_order_info?${params}`,
         {
           headers: {
             'Accept': 'application/json',
